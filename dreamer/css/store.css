@@ -1,0 +1,27 @@
+#store{
+	padding: 100px 10px;
+	background: rgb(248,248,248);
+}
+#store .store1{
+	background: #F0F0F0;
+	box-shadow: 0 0 15px 0 rgba(0,0,0,0.08);
+	margin-bottom: 50px;
+}
+div.store1{
+	width: 300px;
+	border-radius: 20px;
+}
+
+div.store2{
+	width: 700px;
+	border-radius: 20px;
+	padding-left:350px;
+	margin-top: -660px;
+}
+
+#store a{
+	color: black;
+}
+#store a:hover{
+	text-decoration: none;
+}
