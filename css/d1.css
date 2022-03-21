@@ -1,0 +1,346 @@
+body{
+ margin:4px;
+ font-family: Helvetica;
+ margin: 0 auto;
+}
+
+.masonry{
+ column-count:4;
+ column-gap: 5px;
+}
+
+.item{
+ padding:2px;
+ position: relative;
+ /* counter-increment: item-counter; */
+}
+
+/* .item:hover img{
+	background-color: rgba(0,0,0,.3);
+} */
+.item img{
+ display:block;
+ width:100%;
+ height:auto;
+}
+
+.item::after{
+ position: absolute;
+ display: block;
+ top: 2px;
+ left: 2px;
+ width: 24px;
+ height: 24px;
+ text-align: center;
+ line-height:24px;
+ /* background-color: #000;
+ color: #fff;
+ content: counter(item-counter); */
+}
+.fa-heart{
+	position: absolute;
+	z-index: 8;
+	top: 5px;
+	left: 5px;
+  color: red;
+}
+
+.container-lg{
+	margin: 0 auto;
+	max-width: 600px;
+}
+.picture-user{
+	position: relative;
+	text-align: center;
+	max-width: 600px;
+}
+.picture-user img{
+	margin-bottom: 40px;
+}
+.picture-user >div{
+	position: absolute;
+	bottom: 207px;
+	left: 255px;
+}
+.picture-user >div > img{
+	border: 1px solid white;
+}
+.picture-user button{
+	background: #f00e26;
+	border: none;
+	color: white;
+}
+.share{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	/* background: #e4eaf0; */
+	top: 40%;
+	
+	display: flex;
+	justify-content: space-around;
+	z-index: 10;
+}
+.share i{
+	border-radius: 50%;
+	border: solid 1px #f0f0f5;
+	color: black;
+	background: white;
+	line-height: 40px;
+	font-size: 20px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	margin-top: 40px;
+	
+}
+.share i:hover{
+	color: white;
+	background: blue;
+}
+.nav-item:hover{
+	cursor: pointer;
+}
+
+.fas{
+	cursor: pointer;
+}
+.pics img{
+	width: 300px;
+	height: 260px;
+
+}
+.btn-style:hover{
+	background: black;
+	color: white;
+}
+/* like */
+.item .content{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+.num i:first-child{
+	margin-right: 10px;
+}
+/*chat*/
+.chat{
+	width: 368px;
+	height: 820px;
+	border: 1px solid #ccc;
+	margin-left: 20px;
+	padding-top: 10px;
+	background: #fff;
+}
+.chat .chatcenter p{
+	margin-left: 150px;
+	font-size: 18px;
+}
+.chat .chatcenter .fa-ellipsis-h{
+	margin-left: 80px;
+	margin-right: 40px;
+}
+.contact{
+	margin-left: 20px;
+	margin-top: 25px;
+	position: relative;	
+}
+.contact h4{
+	margin-bottom: 25px;
+}
+.contact .fa-search{
+	position: absolute;
+	top: 68px;
+	left: 13px;
+}
+.contact input{
+	padding-left: 33px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.friends ul{
+	overflow-y: auto;
+	height: 585px;
+}
+.friends li{
+	display: flex;
+	margin-bottom: 18px;
+}
+body{
+	position: relative;
+}
+.chat{
+	position: absolute;
+	right: 60px;
+	top: 70px;
+	display: none;
+	z-index: 20;
+}
+
+/* search button idea */
+.idea{
+	width: 700px;
+	position: absolute;
+	top: 70px;
+	left: 450px;
+	background: #fff;
+	padding-top: 20px;
+	padding-left: 20px;
+	display: none;
+	z-index: 12;
+}
+.idea-search-area{
+	display: flex;
+	flex-wrap: wrap;
+}
+.idea-search-area a{
+	width: 150px;
+	height: 60px;
+	display: block;
+	border-radius: 20px;
+	border: 1px solid #000;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	text-align: center;
+	line-height: 60px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+/* dreamerImage1 */
+.right-description{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.right-description h6{
+	font-size: 30px;
+}
+
+/* addProject */
+.addProject{
+	position: absolute;
+	bottom: 20px;
+	right: 30px;
+}
+.addProject a{
+	display: block;
+	margin-bottom: 8px;
+}
+.addProject a i{
+	font-size: 50px;
+	color: #aaa;
+}
+.addProject a i:hover{
+	font-size: 50px;
+	color: red;
+}
+.form{
+	margin: 0 auto;
+	max-width: 1000px;
+	background: #ccc;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 15px;
+	position: relative;
+}
+.form label{
+	text-align: left;
+	margin-top: 10px;
+	
+}
+.form textarea{
+	padding: 8px 15px;
+	/* height: 80px; */
+	border-radius: 5px;
+	border: 1px solid #ccc;
+} 
+.form input[type="text"]{
+	padding: 8px 15px;
+	/* height: 80px; */
+	border-radius: 5px;
+	border: 1px solid #ccc;
+} 
+.form input[type="tel"]{
+	padding: 8px 15px;
+	/* height: 80px; */
+	border-radius: 5px;
+	border: 1px solid #ccc;
+} 
+.form input[type="number"]{
+	padding: 8px 15px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+} 
+.form input[type="date"]{
+	padding: 8px 15px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	width: 49%;
+} 
+.upload{
+	align-self: flex-end;
+	position: absolute;
+	top: 330px;
+	right: 50px;
+	border: 1px solid #ccc;
+}
+.form input[type="button"]{
+	padding: 18px 55px 18px 66px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.form > div{
+	position: relative;
+} 
+.form > div:last-child{
+	text-align: center;
+}
+.form > div i{
+	position: absolute;
+	top: 44px;
+	left: 435px;
+}
+/* dreamer title name */
+.content .title p:first-child{
+	margin-top: -8px;
+}
+.content .title p:last-child{
+	margin-top: -15px;
+}
+
+/* pay button */
+.pay-btn > div{
+	position: relative;
+}
+.pay-btn i{
+	position: absolute;
+	top: 43px;
+	left: 45px;
+}
+.pay-btn input[type="button"]{
+	
+	padding: 18px 55px 18px 66px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+/* sponsor */
+.sponsor > div{
+	display: flex;
+	justify-content: center;
+}
+.sponsor > div > div{
+	
+	background: orange;
+	border-radius: 50%;
+	padding: 30px;
+	margin-left: 15px;
+	margin-top: 30px;
+}
+.sponsor > div > div p{
+	font-size: 26px;
+}
+.bg-cover{
+	background-position: center center;
+	background-size: cover;
+   }

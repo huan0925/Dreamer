@@ -1,0 +1,25 @@
+header nav img{
+	width: 270px;
+}
+.info{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	padding-top: 40px;
+	display: block;
+}
+		
+/* .solo{
+	transition: transform 0.3s ease-in-out;
+}
+.solo:hover{
+	transform: scale(1,1);
+} */
+.iconnotice{
+	width:45px;
+	padding-left:10px;
+}
+.iconnotice:hover{
+	transform: scale(1.1,1.1);
+}
